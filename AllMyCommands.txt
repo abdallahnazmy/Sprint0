@@ -1,0 +1,35 @@
+git init C:\\Users\Mohi\Sprint0
+ 
+git add C:\\Users\Mohi\Sprint0
+
+git rm --cached C:\\Users\Mohi\Sprint0\file2.txt
+
+git add C:\\Users\Mohi\Sprint0\file2.txt
+
+git config --global user.email "abdallah_nazmy1997@live.com"
+
+git commit -m "Sprint0"
+
+git remote add origin https://github.com/abdallahnazmy/Sprint0
+
+git push origin master
+
+git branch ReadMe
+
+git checkout ReadMe
+
+git add C:\\Users\Mohi\Sprint0\README.md
+
+git commit -m "Branch commit"
+
+git pull origin master
+
+git checkout master
+
+git merge ReadMe
+
+git push origin master
+
+git add Sprint0/AllMyCommands.txt
+
+git commit -m "AllMyCommand commit"
